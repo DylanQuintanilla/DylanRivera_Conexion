@@ -1,0 +1,24 @@
+div {
+    height: 150px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Solo color */
+.fondo-color {
+    background-color: #222d2d; 
+}
+
+/* Imagen que se repite (por defecto las imágenes se repiten) */
+.fondo-imagen-repetida {
+    background-image: url("https://thumbs.dreamstime.com/s/textura-de-fondo-mosaicos-azulejos-grises-pared-y-suelo-182212369.jpg");
+    background-color: #006366; /* Color base por si la imagen tarda en cargar */
+    background-repeat: repeat;
+}
+
+/* Imagen centrada y fija */
+.fondo-imagen-centrada {
+    background-image: url("https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=500");
+    background-repeat: no-repeat; /* No repetir */
+    background-position: center; /* Centrar la imagen */
+}
