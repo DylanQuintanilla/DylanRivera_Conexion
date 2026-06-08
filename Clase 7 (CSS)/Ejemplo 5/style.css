@@ -1,0 +1,15 @@
+.titulo-principal {
+    color: #FF0000;
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Pasa todo a MAYÚSCULAS */
+    text-decoration: underline; /* Subraya el texto */
+}
+
+.texto-parrafo {
+    font-size: 25px; 
+    font-family: "Playwrite AU VIC Guides", cursive;
+    font-weight: bolder; 
+    font-style: italic; 
+    line-height: 60px; 
+    text-align: justify; 
+}
