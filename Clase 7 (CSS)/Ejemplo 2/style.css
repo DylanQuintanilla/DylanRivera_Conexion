@@ -1,0 +1,15 @@
+/* Selector Universal: Aplica un borde a absolutamente todo */
+* {
+    border: 1px solid gray;
+}
+
+/* Selector de ID: Se usa el símbolo # */ 
+#titulo-inicio {
+    color: purple;
+}
+
+/* Selector de Clase: Se usa el punto (.) */
+.descripcion {
+    font-size: 25;
+    color: yellow;
+}
