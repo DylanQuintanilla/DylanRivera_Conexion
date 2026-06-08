@@ -1,0 +1,63 @@
+/* 1. Selector Universal */
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Fondos y Colores HEX */
+body {
+    background-color: #f4f4f4;
+}
+
+/* 3. Selector por ID y Degradado Lineal */
+#cabecera {
+    background: linear-gradient(90deg, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* 4. Selector de Clase y Formato de cajas */
+.contenedor-principal {
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    border-left: 5px solid #FF5783; /* Borde izquierdo colorido */
+}
+
+/* 5. Atributos de Texto */
+.titulo-seccion {
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.texto-general {
+    font-size: 16px;
+    line-height: 25px;
+    color: #666;
+    text-align: justify;
+}
+
+/* 6. Degradado Radial y uso de RGBA */
+.fondo-especial {
+    background: radial-gradient(circle, rgba(69, 180, 75, 0.9), rgba(0, 100, 0, 0.9));
+}
+
+/* 7. Botones con colores por Nombre y estilos extra */
+.boton-accion {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
