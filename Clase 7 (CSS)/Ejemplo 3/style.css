@@ -1,0 +1,29 @@
+div {
+    padding: 20px;
+    margin: 10px;
+    color: white; /* Texto blanco para que resalte */
+}
+
+.caja-nombre {
+    background-color: blue; /* Nombre directo */
+}
+
+.caja-hex {
+    background-color: #d32121; /* Código Hexadecimal */
+}
+
+.caja-rgb {
+    background-color: rgba(69, 180, 75, 0.8); /* RGB con transparencia */
+}
+
+.caja-hsl {
+    background-color: hsl(40, 79%, 51%); /* Tono, Saturación, Luminosidad */
+}
+
+
+
+
+
+
+
+
