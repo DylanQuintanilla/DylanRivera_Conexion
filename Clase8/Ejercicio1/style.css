@@ -1,22 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .mi-caja {
     /* Contenido */
-    width: 10px;
+    width: 200px;
     height: 100px;
     background-color: #add8e6;
     /* Azul claro para ver el contenido */
 
     /* Relleno (espacio interno) */
-    padding: 20px;
+    padding: 30px;
 
     /* Borde (límite visual) */
-    border: 15px solid #636386;
+    border: 3px solid #8b3500;
     /* Azul oscuro */
 
     /* Margen (separación externa) */
-    margin: 50px;
+    margin: 10px;
 }
