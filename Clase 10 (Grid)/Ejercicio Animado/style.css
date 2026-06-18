@@ -1,0 +1,7 @@
+#animation-animatable-properties-svg-attributes .docs-demo-template {
+  display: none;
+}
+
+#animation-animatable-properties-svg-attributes .demo polygon {
+  filter: url(#displacementFilter)
+}
