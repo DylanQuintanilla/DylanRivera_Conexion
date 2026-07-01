@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script> \
+    <title>Pet Paradise - Integración Completa</title>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="flex justify-between items-center px-8 py-4 bg-white shadow-md">
+        <div class="text-2xl font-bold text-indigo-600">Pet Paradise</div>
+        <ul class="hidden md:flex flex-1 justify-end space-x-6 mr-6 items-center">
+            <li><a href="#" class="hover:text-indigo-500 focus:ring-2 focus:ring-indigo-400">Home</a></li>
+            <li><a href="#" class="hover:text-indigo-500 focus:ring-2 focus:ring-indigo-400">Gallery</a></li>
+        </ul>
+        <button class="bg-indigo-600 text-white px-4 py-2 rounded-md focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 hover:ring-2 hover:ring-red-500 hover:ring-offset-2 hover:bg-indigo-700 motion-reduce:transition-none transition-colors">
+            Get Started
+            <span class="sr-only"> con Pet Paradise</span> </button>
+    </nav>
+
+    <header class="text-center py-12 px-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-indigo-900 mb-4">Welcome to Pet Paradise!</h1>
+        <p class="text-base md:text-xl text-gray-600 mb-8">Discover adorable dogs and cats waiting for a home.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 pb-12">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b-4 border-indigo-500 pb-2">Featured Pets</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-6 place-items-center">
+            
+            <div class="lg:col-span-4 bg-white rounded-3xl shadow-lg overflow-hidden w-full h-full flex flex-col justify-between contrast-more:border contrast-more:border-gray-800">
+                <div class="bg-blue-500 h-48 flex items-center justify-center text-blue-500 font-bold text-xl p-3">Imagen Perro</div>
+                <div class="bg-indigo-500 text-white text-center py-3 font-semibold">Playful Puppy</div>
+            </div>
+
+            <div class="lg:col-span-4 bg-white rounded-lg shadow-lg overflow-hidden w-full h-full flex flex-col justify-between contrast-more:border contrast-more:border-gray-800">
+                <div class="bg-orange-100 h-48 flex items-center justify-center text-orange-500 font-bold text-xl">Imagen Gato</div>
+                <div class="bg-orange-400 text-white text-center py-3 font-semibold">Cute Kitten</div>
+            </div>
+
+            <div class="lg:col-span-4 bg-white rounded-lg shadow-lg overflow-hidden w-full h-full flex flex-col justify-between contrast-more:border contrast-more:border-gray-800">
+                <div class="bg-red-100 h-48 flex items-center justify-center text-red-500 font-bold text-xl">Imagen Perro Dormido</div>
+                <div class="bg-red-500 text-white text-center py-3 font-semibold">Happy Dog</div>
+            </div>
+            
+        </div>
+    </main>
+
+</body>
+</html>
